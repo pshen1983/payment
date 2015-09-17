@@ -1,0 +1,4 @@
+AddHandler application/x-httpd-php .inc
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^/docs/
+RewriteRule ^ /router.php
