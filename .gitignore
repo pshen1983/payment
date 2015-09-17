@@ -3,3 +3,4 @@
 .project
 .settings/
 config.inc
+.DS_Store
